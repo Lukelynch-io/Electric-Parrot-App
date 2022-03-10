@@ -1,0 +1,6 @@
+{
+    "baseURL": "",
+    "requests": {
+        "help": "help"
+    }
+}

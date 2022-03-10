@@ -1,17 +1,32 @@
 {
   "name": "electric-parrot",
   "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrWalrus1/Electric-Parrot.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "lightning",
+    "network",
+    "lightning",
+    "node",
+    "javascript",
+    "vue"
+  ],
+  "author": "Luke Lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrWalrus1/Electric-Parrot/issues"
+  },
+  "homepage": "https://github.com/DrWalrus1/Electric-Parrot#readme",
   "dependencies": {
-    "vue": "^3.2.31",
-    "vue-router": "^4.0.12"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.2",
-    "vite": "^2.8.4"
+    "node-fetch": "^3.2.2"
   }
 }
