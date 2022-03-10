@@ -14,7 +14,7 @@ async function sendRequest() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Basic ${btoa('lnd:lightning')}`
+            'Authorization': `Basic ${btoa('lnd:lightning')}` //DO NOT USE THIS PASSWORD. YOU WILL BE HACKED!!!
         },
         body: JSON.stringify(baseCLIRequest)
     });
