@@ -1,0 +1,14 @@
+{
+  "name": "electric-parrot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Luke Lynch",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2"
+  }
+}
