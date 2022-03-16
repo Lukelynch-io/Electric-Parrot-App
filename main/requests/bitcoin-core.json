@@ -1,7 +1,0 @@
-{
-    "baseURL": "localhost",
-    "port": 18443,
-    "requests": {
-        "help": "help"
-    }
-}

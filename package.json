@@ -1,0 +1,33 @@
+{
+  "name": "electric-parrot",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrWalrus1/Electric-Parrot.git"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.8.4"
+  },
+  "author": "Luke Lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrWalrus1/Electric-Parrot/issues"
+  },
+  "homepage": "https://github.com/DrWalrus1/Electric-Parrot#readme"
+}
