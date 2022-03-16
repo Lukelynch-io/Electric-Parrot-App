@@ -2,6 +2,7 @@
   "name": "electric-parrot",
   "version": "0.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +14,7 @@
     "url": "git+https://github.com/DrWalrus1/Electric-Parrot.git"
   },
   "dependencies": {
+    "mongoose": "^6.2.6",
     "vue": "^3.2.31"
   },
   "devDependencies": {
