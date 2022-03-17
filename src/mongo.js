@@ -1,20 +1,16 @@
 import path from "path";
 import mongoose from "mongoose";
 import { fileURLToPath } from "url";
+import fs from "fs";
 
 const filename = fileURLToPath(import.meta.url);
 
 const dirname = path.dirname(filename);
 
-console.log(dirname);
+const creds = JSON.parse(fs.readFileSync(`secrets/mongo-creds.json`))
 
 await mongoose.connect(
-  "mongodb+srv://Luke:3M60BDyt6Gm@cluster0.jnanb.mongodb.net/Electric-Parrot?retryWrites=true&w=majority"//,
-//   {
-//     ssl: true,
-//     sslValidate: true,
-//     sslCA: `${dirname}/../secrets/dbadmin-cert.pem`,
-//   }
+    `mongodb+srv://${creds.username}:${creds.password}@cluster0.jnanb.mongodb.net/Electric-Parrot?retryWrites=true&w=majority`
 );
 
 const kittySchema = mongoose.Schema({
