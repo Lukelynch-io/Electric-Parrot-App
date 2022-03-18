@@ -1,13 +1,3 @@
-<script>
-export default {
-  data() {
-    return {
-      greeting: "Hello World!",
-    };
-  },
-};
-</script>
-
 <template>
   <header>
     <img
@@ -17,14 +7,42 @@ export default {
       width="125"
       height="125"
     />
-
     <div class="wrapper">
       <p>{{ greeting }}</p>
     </div>
   </header>
 
-  <main></main>
+  <main>
+    <button @click="sendBtcCliCommand('loadwallet', ['testwallet'])">
+      Load Wallet
+    </button>
+    <button @click="sendBtcCliCommand('unloadwallet', ['testwallet'])">
+      Unload Wallet
+    </button>
+  </main>
 </template>
+
+<script>
+// let btcRequests = new BtcCliRequestHandler("lnd", "lightning", "lvh.me", 18443);
+export default {
+  data() {
+    return {
+      greeting: "Hello World!",
+      result: "",
+    };
+  },
+  methods: {
+    sendBtcCliCommand: (method, params) => {
+    //   try {
+    //     let response = btcRequests.sendBtcCliCommand(method, params);
+    //     return response;
+    //   } catch (error) {
+    //     console.log(error);
+    //   }
+    },
+  },
+};
+</script>
 
 <style>
 @import "./assets/base.css";
