@@ -1,0 +1,120 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-03-19T13:39:54.958Z",
+    "__export_source": "insomnia.desktop.app:v2021.7.2",
+    "resources": [
+        {
+            "_id": "req_b010a49934584e21a9cf476b9c0bb920",
+            "parentId": "wrk_5fdfce2976a84d86964ca1263ce64906",
+            "modified": 1647697153084,
+            "created": 1645445751794,
+            "url": "http://localhost:8081/health",
+            "name": "Health Check",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1645445751794,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_5fdfce2976a84d86964ca1263ce64906",
+            "parentId": null,
+            "modified": 1645445722135,
+            "created": 1645445722135,
+            "name": "Electric Crab",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "env_cd5525cbf6818643f5fb6e954fcb7db86ccc7487",
+            "parentId": "wrk_5fdfce2976a84d86964ca1263ce64906",
+            "modified": 1645446031526,
+            "created": 1645445722147,
+            "name": "Base Environment",
+            "data": {
+                "url": "127.0.0.1",
+                "port": 9000
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "url",
+                    "port"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1645445722147,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_cd5525cbf6818643f5fb6e954fcb7db86ccc7487",
+            "parentId": "wrk_5fdfce2976a84d86964ca1263ce64906",
+            "modified": 1645445722150,
+            "created": 1645445722150,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_3098d8e55c8846698cbf30506d4b719f",
+            "parentId": "wrk_5fdfce2976a84d86964ca1263ce64906",
+            "modified": 1645445722140,
+            "created": 1645445722140,
+            "fileName": "Electric Crab",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_cf1929183c2b499196bd54e1ce333b42",
+            "parentId": "env_cd5525cbf6818643f5fb6e954fcb7db86ccc7487",
+            "modified": 1645446119642,
+            "created": 1645446039227,
+            "name": "Debug",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": "#462300",
+            "isPrivate": false,
+            "metaSortKey": 1645446039227,
+            "_type": "environment"
+        },
+        {
+            "_id": "env_d107500556a14906afffd2f52906f8b6",
+            "parentId": "env_cd5525cbf6818643f5fb6e954fcb7db86ccc7487",
+            "modified": 1645446133034,
+            "created": 1645446047615,
+            "name": "NYC",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": "#0000ff",
+            "isPrivate": false,
+            "metaSortKey": 1645446047615,
+            "_type": "environment"
+        },
+        {
+            "_id": "env_f9219a32f02c4a2aadbb15dec29869fc",
+            "parentId": "env_cd5525cbf6818643f5fb6e954fcb7db86ccc7487",
+            "modified": 1645446140756,
+            "created": 1645446071156,
+            "name": "Release",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": "#00ff00",
+            "isPrivate": false,
+            "metaSortKey": 1645446071156,
+            "_type": "environment"
+        }
+    ]
+}
