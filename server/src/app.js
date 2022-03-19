@@ -13,17 +13,15 @@ app.use(bodyParser.json());
 app.use(cors())
 
 app.get('/health', (req, res) => {
-    res.status = 200;
-    res.send({
+    res.status(200).send({
         message: "Healthy"
     });
 })
 
 app.get("/publickey", (req, res) => {
-    res.status = 200;
     res.send({
         key: publicKey
-    })
+    });
 })
 
 app.listen(process.env.PORT || 8081);
